@@ -1,3 +1,11 @@
+body {
+  font-family: 'Lora';
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.0))), url("../img/apertodemao.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.0)), url("../img/apertodemao.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 h1{
-	background-color: red;
+	background-color: black;
 }

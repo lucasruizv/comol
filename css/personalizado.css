@@ -1,7 +1,7 @@
 body {
   font-family: 'Lora';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.0))), url("../img/fundo.jpg");
-  background: linear-gradient(rgba(47, 23, 15, 0.0)), url("../img/fundo.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.0))), url("../img/preto.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.0)), url("../img/preto.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -20,13 +20,13 @@ h1{
   background-color: rgba(5, 5, 5, 0.8);
 }
 .footer {
-  background-color: rgba(5, 5, 5, 0.8);
+  background-color: rgba(139,69,19, 0.5);
 }
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
+    width: 105%;
     float: right;
-    margin-right: -230px;
+    /*margin-right: -230px;*/
     margin-top: 50px;
   }
   .intro .intro-text {
@@ -71,4 +71,26 @@ h1{
   left: -0.5rem;
   right: -0.5rem;
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+#mainNav {
+  background-color: rgba(139,69,19, 0.5);
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+  color: #e6a756;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #e6a756;
+}
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(139,69,19, 0.5);
 }

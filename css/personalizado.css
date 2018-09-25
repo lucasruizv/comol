@@ -94,3 +94,12 @@ h1{
   padding-bottom: 5rem;
   background-color: rgba(139,69,19, 0.5);
 }
+@media (min-width: 992px){
+.product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+    padding-left: 87px;
+    text-align: center;
+    }
+}
